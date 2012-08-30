@@ -14,5 +14,6 @@ namespace :deploy do
     run "#{sudo} apt-get -y install python-software-properties"
     run "#{sudo} apt-get -y install imagemagick"
     run "#{sudo} apt-get -y install libxml2 libxslt-dev libxml2-dev libautotrace-dev libfreetype6-dev"  # Cause an error with nokoi girl
+    # I still need to install ffmpeg and dependancies!
   end
 end
